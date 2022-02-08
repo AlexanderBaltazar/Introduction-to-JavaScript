@@ -293,10 +293,16 @@ HINT - you may need to study tomorrow's content on arrays
 HINT - try looking up the .includes() method
 */
 
-
-function vowelCounter(/*add your code here*/) {
-  /*add your code here*/
+let word = 0
+function vowelCounter(words) {
+  for (const vowel in words) {
+    if(vowel.toLowerCase.includes('a','e','i','o','u')){
+      count++;
+    }
+  }
+  return count;
 }
+
 
 
 
